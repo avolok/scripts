@@ -1,4 +1,4 @@
-CREATE OR ALTER PROC [dbo].[uspCreateDatabaseSnapshot_draft] 
+CREATE OR ALTER PROC [dbo].[uspCreateDatabaseSnapshot] 
 @SourceDatabase sysname = 'all',
 @SnashotSuffix sysname = 'Snapshot',
 @DropIfExists BIT = 0
